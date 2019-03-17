@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="First School Project">
+    <meta name="keywords" content="HTML,CSS,bootstrap,JavaScript">
+    <meta name="author" content="Ron Dayan">
+    <title>Poject TO DO List</title> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="restoreMissionsFromStorage()">
+       
+    <section>
+    <header>
+        <button onclick="closeAllTasks()">Reset all Missions</button>
+
+       <h1>TO DO LIST</h1>
+
+    </header>
+<main class="col-12">
+        <div class="container-fluid">
+                <div class="row">
+                        <div class="col-md-6"><h2>Enter you task here:</h2></div>
+                        <div class="col-md-6"><h2>My Missions:</h2></div>
+                      </div>
+                      <div class="row">
+                          
+                            <div class="taskBorder col-md-3">
+                                    <label>Task Name:</label><br>
+                                    <input type="text" maxlength="20" id="nameTaskBox" name="nameTask"><br><br>
+                                    <label>What to do:</label><br>
+                                    <input type="text" id="whatToDoBox" name="whatToDo"><br><br>
+                                    <label>Task Due Date:</label><br>
+                                    <input type="date" id="dateToDoBox" name="dateToDo"><br><br>
+                                    <label>Task Due Time:</label>
+                                    <input type="time" id="timeBox" name="time" ><br>
+                                    <button type="submit" class="submit" onclick="return validInfo()">Submit</button><button onclick="resetForm()" class="clear">Reset</button>
+                                    <span id="error"></span>
+
+                                </div>
+                                <div class="centerBorder col-md-1"></div>
+                            <div id="missions" class="missions col-md-7"> 
+                    
+                            </div>
+    
+       
+</main>
+<footer>
+
+All Right Reserved © Ron Dayan
+
+</footer>    
+</section>
+<script src="js/code.js"></script>
+</body>
+</html>
