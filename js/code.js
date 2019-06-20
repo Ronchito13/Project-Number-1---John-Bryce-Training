@@ -199,7 +199,7 @@ var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0');
 var yyyy = today.getFullYear();
 
-today = yyyy + '-' +  mm + '-' + dd;
+today = yyyy + '-' +  dd + '-' + mm;
 return today;
 }
 
@@ -214,7 +214,7 @@ var dd = String(today.getDate() + 5).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0');
 var yyyy = today.getFullYear();
 
-today = yyyy + '-' +  mm + '-' + dd;
+today = yyyy + '-' +  dd + '-' + mm;
 return today;
 }
 
