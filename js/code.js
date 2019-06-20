@@ -1,7 +1,5 @@
 var i = 0;
 
-alert(getToday());
-
 // Check if form submission is valid
 
 
@@ -194,10 +192,25 @@ function resetForm(){
 // get Today Date
 
 
-function getToday(){
+function getMinDate(){
     
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0');
+var yyyy = today.getFullYear();
+
+today = yyyy + '-' +  mm + '-' + dd;
+return today;
+}
+
+
+// get max Date
+
+
+function getMaxDate(){
+    
+var today = new Date();
+var dd = String(today.getDate() + 5).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0');
 var yyyy = today.getFullYear();
 
