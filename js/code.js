@@ -20,7 +20,7 @@ function validInfo(){
     nameTask = nameTaskBox.value;
     whatToDo = whatToDoBox.value;
     dateToDo = dateToDoBox.value;
-    time = timeBox.value = "11:00";
+    time = timeBox.value;
 
     error.innerText = '';
     nameTask.innerText = '';
