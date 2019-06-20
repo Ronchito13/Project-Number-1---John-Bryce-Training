@@ -1,6 +1,6 @@
 var i = 0;
 
-alert("hello");
+alert(getToday());
 
 // Check if form submission is valid
 
