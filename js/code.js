@@ -1,5 +1,7 @@
 var i = 0;
 
+alert(getMinDate());
+
 // Check if form submission is valid
 
 
