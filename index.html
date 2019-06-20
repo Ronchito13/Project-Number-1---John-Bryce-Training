@@ -35,7 +35,7 @@
                                     <label>What to do:</label><br>
                                     <input type="text" id="whatToDoBox" name="whatToDo"><br><br>
                                     <label>Task Due Date:</label><br>
-                                    <input type="date" id="dateToDoBox" name="dateToDo" min="getToday()"><br><br>
+                                    <input type="date" id="dateToDoBox" name="dateToDo" min="getMinDate()" max="getMaxDate()"><br><br>
                                     <label>Task Due Time:</label>
                                     <input type="time" id="timeBox" name="time" value="11:00:00"><br>
                                     <button type="submit" class="submit" onclick="return validInfo()">Submit</button><button onclick="resetForm()" class="clear">Reset</button>
