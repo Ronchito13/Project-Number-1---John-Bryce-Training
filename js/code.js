@@ -1,12 +1,5 @@
 var i = 0;
 
-// how much is I
-
-function onloadGetI(){
-    i = localStorage.getItem("I");
-    alert("You Got " + i + " Missions To Do");
-}
-
 // Check if form submission is valid
 
 
