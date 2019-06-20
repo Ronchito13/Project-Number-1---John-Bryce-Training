@@ -1,5 +1,7 @@
 var i = 0;
 
+alert(getToday());
+
 // Check if form submission is valid
 
 
