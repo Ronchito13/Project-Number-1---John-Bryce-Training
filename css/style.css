@@ -248,17 +248,17 @@ button{
 
 @media (max-width: 900px){
     header button {   
-    top: 75%;   
+    top: 85%;   
 }
     
     header h1 {
-     margin-top: 100px;
+     margin-top: 150px;
     line-height: 70px;
     }
     
     .missionsHeader {    
     position: absolute;
-    top: 450px;
+    top: 300px;
     }
     
     main h2 {
