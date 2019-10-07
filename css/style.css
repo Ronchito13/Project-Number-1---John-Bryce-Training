@@ -250,5 +250,10 @@ button{
     header button {   
     top: 75%;   
 }
+    .missionHeader {
+    margin-left: 0;
+    position: fixed;
+    top: 70%;
+    }
 }
 
