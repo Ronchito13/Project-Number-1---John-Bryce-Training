@@ -257,8 +257,8 @@ button{
     }
     
     .missionsHeader {    
-    position: fixed;
-    top: 70%;
+    position: absolute;
+    top: 450px;
     }
     
     main h2 {
