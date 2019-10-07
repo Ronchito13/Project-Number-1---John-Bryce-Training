@@ -258,7 +258,7 @@ button{
     
     .missionsHeader {    
     position: absolute;
-    top: 300px;
+    top: 320px;
     }
     
     main h2 {
@@ -278,7 +278,7 @@ button{
     
     .missions {
     position: absolute;
-    top: 150%;
+    top: 200%;
 }
     
     .centerBorder{
