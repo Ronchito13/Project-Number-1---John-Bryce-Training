@@ -270,5 +270,9 @@ button{
     position: fixed;
     bottom: 50px;
     }
+    
+    body {
+    background-size: 100% 1400px;
+    }
 }
 
