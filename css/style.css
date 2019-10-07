@@ -280,5 +280,9 @@ button{
     position: absolute;
     top: 150%;
 }
+    
+    .centerBorder{
+        height: 0;
+    }
 }
 
