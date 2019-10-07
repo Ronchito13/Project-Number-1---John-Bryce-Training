@@ -274,5 +274,10 @@ button{
     body {
     background-size: 100% 1400px;
     }
+    
+    .missions {
+    position: absolute;
+    top: 150%;
+}
 }
 
