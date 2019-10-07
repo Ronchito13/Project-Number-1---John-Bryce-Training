@@ -256,10 +256,19 @@ button{
     line-height: 70px;
     }
     
-    .missionsHeader {
-    margin-left: 0;
+    .missionsHeader {    
     position: fixed;
     top: 70%;
+    }
+    
+    main h2 {
+    margin-left: 0;    
+    font-size: x-large;
+    }
+    
+    footer {
+    position: fixed;
+    bottom: 50px;
     }
 }
 
